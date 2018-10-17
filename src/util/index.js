@@ -1,4 +1,4 @@
-import fruitsauce from './apple';
+import {applesauce} from './apple';
 
 function doSomething(){
     console.log('Do something');
@@ -9,5 +9,5 @@ function doOther(){
 }
 
 
-
-export default {doSomething, doOther, fruitsauce};
+export const utilfuncs = {applesauce};
+export const utilities = {doSomething, doOther};
