@@ -1,10 +1,7 @@
-# blankbabel
+What I'm trying to do is have an index.js in the utils folder that will import functions from various files in the utils folder and then re-export them as a job lot.
 
-Intended as a blank project template to save me having to set up all the babel stuff every time.  Copy it, don't modify it i.e. delete the .git and git init or just switch the remote
+When I try and use those indirectly imported functions in my /src/index.js, I get an error - not a function.
 
-npm install
 
-npm run-script build
 
-npm start
 
