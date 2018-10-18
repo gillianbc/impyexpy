@@ -1,13 +1,6 @@
-import {applesauce} from './apple';
-
-function doSomething(){
-    console.log('Do something');
-};
-
-function doOther(){
-    console.log('Do other');
-}
+import applesauce from './apple';
+import cranberrysauce from './cranberry';
 
 
-export const utilfuncs = {applesauce};
-export const utilities = {doSomething, doOther};
+
+export default {applesauce, cranberrysauce};
