@@ -1,5 +1,3 @@
-function applesauce() {
+export default () => {
     console.log("Applesauce");
 };
-
-export default {applesauce};
