@@ -5,11 +5,10 @@ I can then import that index.js in my /src/index.js.  I can then run any of the 
 Named functions are really useful as the function name could come from a key value pair. 
 
 For example:
-
-AgeLimit    Function Name
-12          showKidsArticles
-18          showTeenArticles
-30          showYoungArticles
-50          showMiddleAgeArticles
-
+<table>
+<th>AgeLimit</th><th>Function Name</th>
+  <tr><td>12</td><td>showKidsArticles<td><tr>
+  <tr><td>18</td><td>showTeenArticles<td><tr>
+  <tr><td>30</td><td>showYouthArticles<td><tr>
+</table>
 
